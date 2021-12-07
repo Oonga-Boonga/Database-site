@@ -1,0 +1,32 @@
+body {
+  Background-color: #d1cccc;
+  border-style: inset;
+}
+
+
+.form_group {
+  width: 300px;
+  clear: both;
+  text-align: center;
+  margin: auto;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form_group input {
+  width: 100%;
+  clear: both;
+}
+
+
+.button {
+  display: inline-block; 
+  margin: auto;
+  width: 300px;
+}
+
+.outer {
+  margin: auto;
+  text-align: center;
+}

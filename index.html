@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    
+    
+  </head>
+
+
+
+  <body>
+    
+    <form>
+
+    </form>
+
+    <div class = "form_group">    
+         <label>Student ID:</label>    
+         <input type = "text"  name = "ID"  value = "" align = "centre" required/>   
+    </div>     
+    
+    <br>
+    
+    <div class = "form_group">    
+         <label>First Name:</label>    
+         <input type = "text" name = "fname" value = "" required/>   
+    </div>     
+    
+    <br>
+    
+    <div class = "form_group">
+      <label>Surname:</label>
+      <input type = "text" name = "lname" value = "" required/>
+      
+    </div>
+
+    <br>
+
+    <div class = "form_group">
+      <label>Age:</label>
+      <input type = "text" name = "age" value = "" required/>
+    </div>
+    
+    <br>
+    
+    <div class = "outer">
+
+      <div class = "button">
+      <input id = "button" type = "submit"  name = "button" value = "Retrieve">
+      </div>
+
+      <div class = "button">
+      <input id = "button2" type = "submit"  name = "button2" value =   "Enter">
+      </div>
+
+    </div>
+  
+
+
+
+    <script>
+    var count = 1;
+    document.getElementById('button').onclick = function() {
+       alert("retrieved ID:");
+    };
+    </script>
+
+
+    <script>
+    var count = 1;
+    document.getElementById('button2').onclick = function() {
+       alert("New ID:");
+    };
+    </script>
+
+
+
+
+
+  </body>
+</html>
